@@ -57,8 +57,8 @@ def export_process(iri: str):
         ?process ?pp ?po.
         ?pobject ?op ?oo.    
         ?pstep ?sp ?so.     
-        ?process Property:HasObject ?pobject.
-        ?pstep Property:IsSubprocessOf ?process.
+        ?process property:HasObject ?pobject.
+        ?pstep property:IsSubprocessOf ?process.
         VALUES ?process { """ + iri + """ }
     }
     """)
@@ -71,7 +71,7 @@ def export_process(iri: str):
     }
     WHERE {
         ?pparam ?ppp ?ppo.       
-        ?pparam Property:IsProcessParameterOf/Property:IsSubprocessOf ?process.
+        ?pparam property:IsProcessParameterOf/property:IsSubprocessOf ?process.
         VALUES ?process { """ + iri + """ }
     }
     """)
@@ -100,7 +100,7 @@ def get_instances(rdf_type: str, restrictions: str = "") -> list[str]:
     }
     WHERE {
         ?s ?p ?o.
-        ?s rdf:type|Property:IsInstanceOf """ + rdf_type + """.
+        ?s rdf:type|property:IsInstanceOf """ + rdf_type + """.
         """ + restrictions + """
     }
     """)
@@ -127,28 +127,28 @@ cleanup()
 
 # this will result in the following list
 process_types = [
-"LabProcess:OSLbc089261bd1b470c9ec5e159ce3442c6", # KIproBatt v1 Filling
-"LabProcess:OSL9a645a64b15442398ad3c057e1b64d87", # KIproBatt v1 Separation
-"LabProcess:OSL6d6a05be73d64293a34654c6b9b48eb0", # KIproBatt v1 Formation and EoL-Test
-"LabProcess:OSLd0c734a239844a0d8820856add12aeca", # KIproBatt v1 Stacking
-"LabProcess:OSLdc7b328d2c0b4348ae5e60e2ee7b9fb8", # KIproBatt v1 Degassing
-"LabProcess:OSL7ca64bd792e648f181b881525e621ee4", # AI Image Analysis
-"LabProcess:OSLce4377780d0a40bb883c48d698f0b9de", # KIproBatt v2 Stacking
-"LabProcess:OSL8d3ddce404964e89b37e6368071a822b", # Electrochemical Feature Extraction
-"LabProcess:OSLdec1088137c143a5bab6495efe873fdb", # KIproBatt v2 Separation
-"LabProcess:OSL4c1f7444e389471a8250f53407191735", # KIproBatt v1 Drying
+"labprocess:OSLbc089261bd1b470c9ec5e159ce3442c6", # KIproBatt v1 Filling
+"labprocess:OSL9a645a64b15442398ad3c057e1b64d87", # KIproBatt v1 Separation
+"labprocess:OSL6d6a05be73d64293a34654c6b9b48eb0", # KIproBatt v1 Formation and EoL-Test
+"labprocess:OSLd0c734a239844a0d8820856add12aeca", # KIproBatt v1 Stacking
+"labprocess:OSLdc7b328d2c0b4348ae5e60e2ee7b9fb8", # KIproBatt v1 Degassing
+"labprocess:OSL7ca64bd792e648f181b881525e621ee4", # AI Image Analysis
+"labprocess:OSLce4377780d0a40bb883c48d698f0b9de", # KIproBatt v2 Stacking
+"labprocess:OSL8d3ddce404964e89b37e6368071a822b", # Electrochemical Feature Extraction
+"labprocess:OSLdec1088137c143a5bab6495efe873fdb", # KIproBatt v2 Separation
+"labprocess:OSL4c1f7444e389471a8250f53407191735", # KIproBatt v1 Drying
 ]
 
 # query all instances of a process type
-#get_instances("LabProcess:OSLdec1088137c143a5bab6495efe873fdb", restrictions="?s Property:HasProject kiprobatt:KIproBatt.")
+#get_instances("labprocess:OSLdec1088137c143a5bab6495efe873fdb", restrictions="?s property:HasProject kiprobatt:KIproBatt.")
 
 # export a single process instance
-#export_process("LabObject:OSLa9c51bbca9a843359472ed748fa9ed33")
+#export_process("labobject:OSLa9c51bbca9a843359472ed748fa9ed33")
 
 # export all process instances
 for pt in process_types:
     print("exporting " + pt)
-    for pi in get_instances(pt, restrictions="?s Property:HasProject kiprobatt:KIproBatt."):
+    for pi in get_instances(pt, restrictions="?s property:HasProject kiprobatt:KIproBatt."):
         print("exporting " + pi)
         try:
             export_process(pi)

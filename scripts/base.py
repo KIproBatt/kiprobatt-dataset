@@ -11,14 +11,14 @@ domain = "kiprobatt.de"
 mappings = {
 "swivt": "http://semantic-mediawiki.org/swivt/1.0#",
 "kiprobatt": f"https://{domain}/id/",
-"Property": f"https://{domain}/id/Property-3A",
-"Category": f"https://{domain}/id/Category-3A",
-"LabProcess": f"https://{domain}/id/LabProcess-3A",
-"LabObject": f"https://{domain}/id/LabObject-3A",
-"Material": f"https://{domain}/id/Material-3A",
-"Device": f"https://{domain}/id/Device-3A",
-"Term": f"https://{domain}/id/Term-3A",
-"File": f"https://{domain}/id/File-3A",
+"property": f"https://{domain}/id/Property-3A",
+"category": f"https://{domain}/id/Category-3A",
+"labprocess": f"https://{domain}/id/LabProcess-3A",
+"labobject": f"https://{domain}/id/LabObject-3A",
+"material": f"https://{domain}/id/Material-3A",
+"device": f"https://{domain}/id/Device-3A",
+"term": f"https://{domain}/id/Term-3A",
+"file": f"https://{domain}/id/File-3A",
 }
 
 # build SPARQL prefixes and JSON-LD context
@@ -41,19 +41,19 @@ def filter_internal_properties(jsonld_dict: Dict):
         the modified dict
     """
     properties = [
-        "Property:HasCreator",
-        "Property:HasAgent",
-        "Property:Display_title_of",
+        "property:HasCreator",
+        "property:HasAgent",
+        "property:Display_title_of",
         "rdfs:label",
         "swivt:wikiPageSortKey",
         "swivt:wikiNamespace",
         "swivt:masterPage",
         "swivt:wikiPageContentLanguage",
-        "Property:HasId",
-        "Property:Has_query",
-        "Property:Has_subobject",
-        "Property:Debug",
-        "Property:Has_parent_page",
+        "property:HasId",
+        "property:Has_query",
+        "property:Has_subobject",
+        "property:Debug",
+        "property:Has_parent_page",
     ]
     def apply(node):
         for p in properties:

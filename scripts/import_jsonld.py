@@ -30,7 +30,7 @@ print_graph_stats(graph)
 # example usecase: query for all instances of a finished battery cell
 q = prefixes + """SELECT ?s
 WHERE {
-    ?s Property:IsInstanceOf Material:OSLd14c860458ea4b9aaf93a4bf64838ac7.
+    ?s property:IsInstanceOf material:OSLd14c860458ea4b9aaf93a4bf64838ac7.
 }
 LIMIT 10
 """

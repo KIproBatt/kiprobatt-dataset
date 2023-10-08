@@ -22,7 +22,7 @@ def get_materials() -> None:
     }
     WHERE {
         ?s ?p ?o.
-        ?s rdfs:subClassOf+ Category:Material.
+        ?s rdfs:subClassOf+ category:Material.
     }
     """)
     results = client.sparql.queryAndConvert()
@@ -56,7 +56,7 @@ def get_material_types() -> None:
     }
     WHERE {
         ?s ?p ?o.
-        ?s rdf:type/rdfs:subClassOf+ Category:Material.
+        ?s rdf:type/rdfs:subClassOf+ category:Material.
     }
     """)
     results = client.sparql.queryAndConvert()

@@ -1,5 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8418324.svg)](https://doi.org/10.5281/zenodo.8418324)
+
 # kiprobatt-dataset
-The exported dataset of kiprobatt.de
+The exported dataset of [kiprobatt.de](https://kiprobatt.de/wiki)
 
 ## Stats
 | Metric        | Value         |
@@ -182,3 +184,5 @@ classDiagram
 |LabProcess:OSLdec1088137c143a5bab6495efe873fdb | KIproBatt v2 Separation | [url](https://kiprobatt.de/id/LabProcess:OSLdec1088137c143a5bab6495efe873fdb)
 |LabProcess:OSL4c1f7444e389471a8250f53407191735 | KIproBatt v1 Drying | [url](https://kiprobatt.de/id/LabProcess:OSL4c1f7444e389471a8250f53407191735)
 
+# Acknowledgment
+This project is funded by the German Federal Ministry of Education and Research (BMBF), grant no. 03XP0309A-C.

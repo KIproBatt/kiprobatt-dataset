@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8418324.svg)](https://doi.org/10.5281/zenodo.8418324)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8418323.svg)](https://doi.org/10.5281/zenodo.8418323) 
 
 # kiprobatt-dataset
 The exported dataset of [kiprobatt.de](https://kiprobatt.de/wiki)

@@ -77,344 +77,11 @@
     },
     "@graph": [
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0202",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasFile": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0002.jpeg"
-            },
-            "Property:HasName": "ElectrodeImage2",
-            "Property:HasProperty": {
-                "@id": "Property:HasFile"
-            },
-            "Property:HasValue": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0002.jpeg"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/File"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0090",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:ElectrodeFoil@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0000",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CameraWeighingScale",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolType"
-                },
-                {
-                    "@id": "Property:HasTool"
-                },
-                {
-                    "@id": "Property:HasToolSetup"
-                }
-            ],
-            "Property:HasTool": {
-                "@id": "LabObject:OSLd05417b3bc944898b25b68f4228a72e0"
-            },
-            "Property:HasToolType": {
-                "@id": "Device:OSL24707c7b5cc14c0c881745ae3db91746"
-            },
-            "Property:HasValue": [
-                {
-                    "@id": "LabObject:OSLd05417b3bc944898b25b68f4228a72e0"
-                },
-                {
-                    "@id": "Device:OSL24707c7b5cc14c0c881745ae3db91746"
-                }
-            ],
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0205",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasFile": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0005.jpeg"
-            },
-            "Property:HasName": "ElectrodeImage5",
-            "Property:HasProperty": {
-                "@id": "Property:HasFile"
-            },
-            "Property:HasValue": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0005.jpeg"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/File"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0206",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasFile": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0006.jpeg"
-            },
-            "Property:HasName": "ElectrodeImage6",
-            "Property:HasProperty": {
-                "@id": "Property:HasFile"
-            },
-            "Property:HasValue": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0006.jpeg"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/File"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0104",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0005076,
-            "Property:HasName": "PredryingMass4",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:0.5076_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0103",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0005046,
-            "Property:HasName": "PredryingMass3",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:0.5046_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0106",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0005077,
-            "Property:HasName": "PredryingMass6",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:0.5077_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0204",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasFile": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0004.jpeg"
-            },
-            "Property:HasName": "ElectrodeImage4",
-            "Property:HasProperty": {
-                "@id": "Property:HasFile"
-            },
-            "Property:HasValue": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0004.jpeg"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
-                },
-                {
-                    "@id": "Term:Parameter/File"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
             "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c",
             "@type": [
-                "swivt:Subject",
                 "Category:LabObject",
-                "Category:Labprocess-2FInstance"
+                "Category:Labprocess-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasCreationDate": {
                 "@type": "xsd:dateTime",
@@ -423,6 +90,15 @@
             "Property:HasCreationDate-23aux": 2459759.0558102,
             "Property:HasName": "Separation Protocol",
             "Property:HasObject": [
+                {
+                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0000"
+                },
+                {
+                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0001"
+                },
+                {
+                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
+                },
                 {
                     "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003"
                 },
@@ -433,16 +109,7 @@
                     "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005"
                 },
                 {
-                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0000"
-                },
-                {
-                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
-                },
-                {
                     "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006"
-                },
-                {
-                    "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0001"
                 },
                 {
                     "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0090"
@@ -476,44 +143,156 @@
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0203",
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0000",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
             ],
-            "Property:HasFile": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0003.jpeg"
+            "Property:HasLabel": {
+                "@id": "kiprobatt:ElectrodeMagazine@en"
             },
-            "Property:HasName": "ElectrodeImage3",
-            "Property:HasProperty": {
-                "@id": "Property:HasFile"
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
             },
-            "Property:HasValue": {
-                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0003.jpeg"
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL5cf054503ea24a1eafddf18250cb6dfa"
             },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/File"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0001",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
             ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003"
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
             },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0090",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:ElectrodeFoil@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
             }
         },
         {
             "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0000",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
@@ -565,10 +344,10 @@
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/InputObject"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/InputObject"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -579,42 +358,10 @@
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0105",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0005068,
-            "Property:HasName": "PredryingMass5",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:0.5068_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
-            }
-        },
-        {
             "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
@@ -655,78 +402,60 @@
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0102",
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0000",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasMass": 0.0005077,
-            "Property:HasName": "PredryingMass2",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:0.5077_g"
-            },
-            "Property:IsInstanceOf": [
+            "Property:HasName": "CameraWeighingScale",
+            "Property:HasProperty": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
+                    "@id": "Property:HasTool"
                 },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasTool": {
+                "@id": "LabObject:OSLd05417b3bc944898b25b68f4228a72e0"
+            },
+            "Property:HasToolType": {
+                "@id": "Device:OSL24707c7b5cc14c0c881745ae3db91746"
+            },
+            "Property:HasValue": [
+                {
+                    "@id": "Device:OSL24707c7b5cc14c0c881745ae3db91746"
+                },
+                {
+                    "@id": "LabObject:OSLd05417b3bc944898b25b68f4228a72e0"
+                }
+            ],
+            "Property:IsInstanceOf": [
                 {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
                 }
             ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
-            },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
             "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0101",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasMass": 0.0005044,
             "Property:HasName": "PredryingMass1",
@@ -741,10 +470,10 @@
                     "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
                 },
                 {
-                    "@id": "Term:Parameter/Quantitative"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -755,62 +484,163 @@
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002",
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0102",
             "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
+                "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
+            "Property:HasMass": 0.0005077,
+            "Property:HasName": "PredryingMass2",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:HasValue": {
+                "@id": "kiprobatt:0.5077_g"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0000",
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0103",
             "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcessObject",
-                "Category:LabProcess-2FGlobalObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:ElectrodeMagazine@en"
+            "Property:HasMass": 0.0005046,
+            "Property:HasName": "PredryingMass3",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
             },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:HasValue": {
+                "@id": "kiprobatt:0.5046_g"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL5cf054503ea24a1eafddf18250cb6dfa"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003"
             },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c"
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
             }
         },
         {
-            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0001",
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0104",
             "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
+                "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
+            "Property:HasMass": 0.0005076,
+            "Property:HasName": "PredryingMass4",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:HasValue": {
+                "@id": "kiprobatt:0.5076_g"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0105",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0005068,
+            "Property:HasName": "PredryingMass5",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:0.5068_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0106",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0005077,
+            "Property:HasName": "PredryingMass6",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:0.5077_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSLb8daeb7461534b6f82c8714a2d8d98eb"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
             }
         },
         {
@@ -831,17 +661,187 @@
             },
             "Property:IsInstanceOf": [
                 {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/File"
-                },
-                {
-                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
                 }
             ],
             "Property:IsObjectParameterOf": {
                 "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0001"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0202",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasFile": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0002.jpeg"
+            },
+            "Property:HasName": "ElectrodeImage2",
+            "Property:HasProperty": {
+                "@id": "Property:HasFile"
+            },
+            "Property:HasValue": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0002.jpeg"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/File"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0203",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasFile": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0003.jpeg"
+            },
+            "Property:HasName": "ElectrodeImage3",
+            "Property:HasProperty": {
+                "@id": "Property:HasFile"
+            },
+            "Property:HasValue": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0003.jpeg"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/File"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0204",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasFile": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0004.jpeg"
+            },
+            "Property:HasName": "ElectrodeImage4",
+            "Property:HasProperty": {
+                "@id": "Property:HasFile"
+            },
+            "Property:HasValue": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0004.jpeg"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/File"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0205",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasFile": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0005.jpeg"
+            },
+            "Property:HasName": "ElectrodeImage5",
+            "Property:HasProperty": {
+                "@id": "Property:HasFile"
+            },
+            "Property:HasValue": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0005.jpeg"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/File"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"
+            }
+        },
+        {
+            "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020-23P0206",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasFile": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0006.jpeg"
+            },
+            "Property:HasName": "ElectrodeImage6",
+            "Property:HasProperty": {
+                "@id": "Property:HasFile"
+            },
+            "Property:HasValue": {
+                "@id": "File:OSL395598dcb1b74f80a4e3ea418d50682cO0006.jpeg"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:OSL1bb538c109fe427db8b2ad1dcbf7f559"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/File"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c-23O0006"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL395598dcb1b74f80a4e3ea418d50682c/S0020"

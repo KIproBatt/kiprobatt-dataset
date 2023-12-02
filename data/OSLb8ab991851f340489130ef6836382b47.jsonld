@@ -77,191 +77,11 @@
     },
     "@graph": [
         {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0000",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DryingDeviceSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolSetup"
-                },
-                {
-                    "@id": "Property:HasTool"
-                },
-                {
-                    "@id": "Property:HasToolType"
-                }
-            ],
-            "Property:HasToolType": {
-                "@id": "Device:OSLbaaf7f88142d4b8d91d5ae3df71acb7c"
-            },
-            "Property:HasValue": {
-                "@id": "Device:OSLbaaf7f88142d4b8d91d5ae3df71acb7c"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0002",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "MagazineSelection2",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL59313a49727a47debcc05f12e8a879c3-23O0000"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL59313a49727a47debcc05f12e8a879c3-23O0000"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0002"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0105",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "VentilationPressure",
-            "Property:HasPressure": 50000.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasPressure"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:500_mbar"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0104",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "NumberOfVentilations",
-            "Property:HasNumberOfEntities": 5.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:5"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0101",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "Temperature",
-            "Property:HasProperty": {
-                "@id": "Property:HasTemperature"
-            },
-            "Property:HasTemperature": 110.0,
-            "Property:HasValue": {
-                "@id": "kiprobatt:110_°C"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "kiprobatt:Fraunhofer_ISC/Processes/KIproBatt_v1/Parameter/Drying/Temperature"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0102",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasDuration": 43200.0,
-            "Property:HasName": "Duration",
-            "Property:HasProperty": {
-                "@id": "Property:HasDuration"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:12_h"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
             "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47",
             "@type": [
+                "Category:LabObject",
                 "Category:Labprocess-2FInstance",
-                "swivt:Subject",
-                "Category:LabObject"
+                "swivt:Subject"
             ],
             "Property:HasCreationDate": {
                 "@type": "xsd:dateTime",
@@ -272,10 +92,10 @@
             "Property:HasName": "Drying Protocol",
             "Property:HasObject": [
                 {
-                    "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0002"
+                    "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0001"
                 },
                 {
-                    "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0001"
+                    "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0002"
                 }
             ],
             "Property:HasOutputCategory": {
@@ -309,10 +129,10 @@
             "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0001",
             "@type": [
                 "Category:LabProcess-2FGlobalObject",
-                "swivt:Subject",
                 "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
                 "Category:LabProcessOutput",
-                "Category:LabProcessObject"
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:DriedMagazine1@en"
@@ -331,11 +151,11 @@
         {
             "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0002",
             "@type": [
-                "swivt:Subject",
                 "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
                 "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:DriedMagazine1@en"
@@ -349,6 +169,41 @@
             },
             "Property:IsOutputOf": {
                 "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0000",
+            "@type": [
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-30T07:12:41+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2459852.8004745,
+            "Property:HasName": "Magazine Count Determination",
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-30T07:12:41+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2459852.8004745,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47"
+            },
+            "Property:Modification_date-23aux": 2459852.8007755,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLb8ab991851f340489130ef6836382b47/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLb8ab991851f340489130ef6836382b47/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-30T07:13:07+00:00"
             }
         },
         {
@@ -367,71 +222,14 @@
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0000"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0103",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "Pressure",
-            "Property:HasPressure": 5000.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasPressure"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:50_mbar"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0001",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "MagazineSelection1",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLcfa03803c1ca403b80e95b10787e17e8-23O0000"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSLcfa03803c1ca403b80e95b10787e17e8-23O0000"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0001"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
             }
         },
         {
@@ -476,38 +274,240 @@
             }
         },
         {
-            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0000",
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0000",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-30T07:12:41+00:00"
+            "Property:HasName": "DryingDeviceSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasToolType": {
+                "@id": "Device:OSLbaaf7f88142d4b8d91d5ae3df71acb7c"
             },
-            "Property:HasEndDateAndTime-23aux": 2459852.8004745,
-            "Property:HasName": "Magazine Count Determination",
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-30T07:12:41+00:00"
+            "Property:HasValue": {
+                "@id": "Device:OSLbaaf7f88142d4b8d91d5ae3df71acb7c"
             },
-            "Property:HasStartDateAndTime-23aux": 2459852.8004745,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0001",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "MagazineSelection1",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLcfa03803c1ca403b80e95b10787e17e8-23O0000"
             },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47"
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
             },
-            "Property:Modification_date-23aux": 2459852.8007755,
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLb8ab991851f340489130ef6836382b47/S0000"
+            "Property:HasValue": {
+                "@id": "LabObject:OSLcfa03803c1ca403b80e95b10787e17e8-23O0000"
             },
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLb8ab991851f340489130ef6836382b47/S0000"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0001"
             },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-30T07:13:07+00:00"
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0002",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "MagazineSelection2",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL59313a49727a47debcc05f12e8a879c3-23O0000"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL59313a49727a47debcc05f12e8a879c3-23O0000"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0101",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "Temperature",
+            "Property:HasProperty": {
+                "@id": "Property:HasTemperature"
+            },
+            "Property:HasTemperature": 110.0,
+            "Property:HasValue": {
+                "@id": "kiprobatt:110_°C"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "kiprobatt:Fraunhofer_ISC/Processes/KIproBatt_v1/Parameter/Drying/Temperature"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0102",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasDuration": 43200.0,
+            "Property:HasName": "Duration",
+            "Property:HasProperty": {
+                "@id": "Property:HasDuration"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:12_h"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0103",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "Pressure",
+            "Property:HasPressure": 5000.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasPressure"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:50_mbar"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0104",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "NumberOfVentilations",
+            "Property:HasNumberOfEntities": 5.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:5"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010-23P0105",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "VentilationPressure",
+            "Property:HasPressure": 50000.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasPressure"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:500_mbar"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLb8ab991851f340489130ef6836382b47/S0010"
             }
         }
     ]

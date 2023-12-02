@@ -65,6 +65,32 @@ def filter_internal_properties(jsonld_dict: Dict):
     else: apply(jsonld_dict)
     return jsonld_dict
 
+def order_dict(d: dict) -> dict:
+    """sorts dicts by keys and lists by value 
+    (if lists contains dicts, they are sorted by @id or the first key)
+    """
+    def key(x):
+        if isinstance(x, dict):
+            if "@id" in x: 
+                return x["@id"]
+            else:
+                first_key = next(iter(dict))
+                if first_key in x: return x[first_key]
+                else: return None
+        else: return x
+    def order_dict_recursiv(v):
+        if isinstance(v, dict):
+            for k in v:
+                v[k] = order_dict_recursiv(v[k])
+            v = dict(sorted(v.items()))
+        elif isinstance(v, list):
+            for i in v:
+                i = order_dict_recursiv(i)
+            v = sorted(v, key=key)
+        return v
+
+    return order_dict_recursiv(d)
+
 def dump(graph: rdflib.Graph, filepath: str):
     """Dump a rdflib graph to a jsonld file within the data directory
 
@@ -82,7 +108,8 @@ def dump(graph: rdflib.Graph, filepath: str):
             jsonld_dict["@context"][key] = value
         jsonld_dict = jsonld.compact(jsonld_dict, jsonld_dict["@context"])
         jsonld_dict = filter_internal_properties(jsonld_dict)
-        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4, sort_keys=True))
+        jsonld_dict = order_dict(jsonld_dict)
+        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4))
 
 def cleanup():
     """purge the data directory"""

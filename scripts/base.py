@@ -82,7 +82,7 @@ def dump(graph: rdflib.Graph, filepath: str):
             jsonld_dict["@context"][key] = value
         jsonld_dict = jsonld.compact(jsonld_dict, jsonld_dict["@context"])
         jsonld_dict = filter_internal_properties(jsonld_dict)
-        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4))
+        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4, sort_keys=True))
 
 def cleanup():
     """purge the data directory"""

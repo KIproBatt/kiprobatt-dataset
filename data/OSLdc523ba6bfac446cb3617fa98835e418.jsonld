@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -72,8 +73,7 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
         {
@@ -220,16 +220,6 @@
                 "swivt:Subject",
                 "Category:ProcessStepInstance"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-07T07:33:02+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0000"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2022-09-07T07:31:59+00:00"
@@ -250,7 +240,17 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418"
             },
-            "Property:Modification_date-23aux": 2459829.8146065
+            "Property:Modification_date-23aux": 2459829.8146065,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-07T07:33:02+00:00"
+            }
         },
         {
             "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418/S0020-23P0101",
@@ -514,16 +514,6 @@
                 "Category:LabObject",
                 "Category:Labprocess-2FInstance"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-07T07:29:17+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418"
-            },
             "Property:HasCreationDate": {
                 "@type": "xsd:dateTime",
                 "@value": "2022-09-07T07:29:09+00:00"
@@ -571,7 +561,17 @@
             "Property:IsInstanceOf": {
                 "@id": "LabProcess:OSL9a645a64b15442398ad3c057e1b64d87"
             },
-            "Property:Modification_date-23aux": 2459829.8120023
+            "Property:Modification_date-23aux": 2459829.8120023,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-07T07:29:17+00:00"
+            }
         },
         {
             "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418/S0020-23P0102",
@@ -735,16 +735,6 @@
                 "Category:ProcessStepInstance",
                 "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0010"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-07T07:35:46+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0010"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2022-09-07T07:34:48+00:00"
@@ -771,7 +761,17 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418"
             },
-            "Property:Modification_date-23aux": 2459829.8165046
+            "Property:Modification_date-23aux": 2459829.8165046,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0010"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0010"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-07T07:35:46+00:00"
+            }
         },
         {
             "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418-23O0000",
@@ -897,16 +897,6 @@
                 "Category:ProcessStepInstance",
                 "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0020"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-08T10:50:32+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0020"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2022-09-07T07:36:48+00:00"
@@ -933,7 +923,17 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418"
             },
-            "Property:Modification_date-23aux": 2459830.9517593
+            "Property:Modification_date-23aux": 2459830.9517593,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0020"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLdc523ba6bfac446cb3617fa98835e418/S0020"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-08T10:50:32+00:00"
+            }
         },
         {
             "@id": "LabObject:OSLdc523ba6bfac446cb3617fa98835e418/S0020-23P0201",

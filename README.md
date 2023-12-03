@@ -3,15 +3,15 @@
 # kiprobatt-dataset
 The exported dataset of [kiprobatt.de](https://kiprobatt.de/wiki)
 
-Contains the production parameters of battery cells produced in the KIproBatt project (lab-scale) as rdf-graph (serialized as json-ld). Assets (e. g. images) are referenced via IRIs and can be downloaded from the [KIproBatt Platform](https://kiprobatt.de/wiki).
+Contains the production parameters of battery cells produced in the KIproBatt project (lab-scale) as rdf-graph (serialized as json-ld). Assets / files are referenced via resolveable IRIs. Small files (e. g. cycling data csv exports) are included in this dataset while large files (e. g. images) are not included due to their size but can be downloaded from the [KIproBatt Platform](https://kiprobatt.de/wiki). 
 
 ## Stats
 | Metric        | Value         |
 | ------------- |:-------------:|
-| statements/triples | 236360
-| subjects | 22590
+| statements/triples | 256980
+| subjects | 24577
 | predicates | 43
-| objects | 31285
+| objects | 34641
 
 ## Data Structure Overview
 ```mermaid

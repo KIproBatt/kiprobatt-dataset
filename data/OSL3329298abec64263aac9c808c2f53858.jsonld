@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,18 +73,101 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
         {
+            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858",
+            "@type": [
+                "Category:LabObject",
+                "Category:Labprocess-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasCreationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-02-22T10:17:53+00:00"
+            },
+            "Property:HasCreationDate-23aux": 2459997.9290857,
+            "Property:HasDescription": "Trocknungsdauer kaop",
+            "Property:HasName": "Formation Protocol",
+            "Property:HasObject": [
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0000"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0001"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0002"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0003"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0051"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0052"
+                },
+                {
+                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0053"
+                }
+            ],
+            "Property:HasOutputCategory": {
+                "@id": "Category:OSLa8f80efb5199429cb58989c5a5558304"
+            },
+            "Property:HasOutputType": {
+                "@id": "Material:OSLd14c860458ea4b9aaf93a4bf64838ac7"
+            },
+            "Property:HasProject": {
+                "@id": "kiprobatt:KIproBatt"
+            },
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "LabProcess:OSL6d6a05be73d64293a34654c6b9b48eb0"
+            },
+            "Property:Modification_date-23aux": 2459997.9293519,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL3329298abec64263aac9c808c2f53858"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL3329298abec64263aac9c808c2f53858"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-02-22T10:18:16+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0000",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:ElectrochemicalCharacterizationData@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858"
+            }
+        },
+        {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0001",
             "@type": [
-                "Category:LabProcessObject",
                 "Category:LabProcess-2FGlobalObject",
-                "swivt:Subject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
                 "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:FormatedCell1@en"
@@ -102,11 +186,11 @@
         {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0002",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
                 "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject"
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:FormatedCell1@en"
@@ -123,23 +207,23 @@
             }
         },
         {
-            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0053",
+            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0003",
             "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
                 "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
                 "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
-                "@id": "kiprobatt:TestedCell1@en"
+                "@id": "kiprobatt:FormatedCell1@en"
             },
             "Property:HasNumberOfEntities": 1.0,
             "Property:HasQuantifyingQuantity": {
                 "@id": "Property:HasNumberOfEntities"
             },
             "Property:IsInstanceOf": {
-                "@id": "Material:OSLd14c860458ea4b9aaf93a4bf64838ac7"
+                "@id": "Material:OSL5cede93e53054e23b6f4a18004e22c1c"
             },
             "Property:IsOutputOf": {
                 "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858"
@@ -148,11 +232,11 @@
         {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0051",
             "@type": [
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcessObject",
                 "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput"
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:TestedCell1@en"
@@ -171,10 +255,10 @@
         {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0052",
             "@type": [
-                "Category:LabProcessOutput",
+                "Category:LabProcess-2FGlobalObject",
                 "Category:LabProcess-2FObject",
                 "Category:LabProcessObject",
-                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcessOutput",
                 "swivt:Subject"
             ],
             "Property:HasLabel": {
@@ -192,20 +276,23 @@
             }
         },
         {
-            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0000",
+            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0053",
             "@type": [
-                "Category:LabProcessOutput",
+                "Category:LabProcess-2FGlobalObject",
                 "Category:LabProcess-2FObject",
-                "swivt:Subject",
                 "Category:LabProcessObject",
-                "Category:LabProcess-2FGlobalObject"
+                "Category:LabProcessOutput",
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
-                "@id": "kiprobatt:ElectrochemicalCharacterizationData@en"
+                "@id": "kiprobatt:TestedCell1@en"
             },
             "Property:HasNumberOfEntities": 1.0,
             "Property:HasQuantifyingQuantity": {
                 "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd14c860458ea4b9aaf93a4bf64838ac7"
             },
             "Property:IsOutputOf": {
                 "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858"
@@ -214,19 +301,9 @@
         {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858/S0000",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL3329298abec64263aac9c808c2f53858/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-02-22T10:19:40+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL3329298abec64263aac9c808c2f53858/S0000"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2023-02-22T10:18:37+00:00"
@@ -244,100 +321,23 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858"
             },
-            "Property:Modification_date-23aux": 2459997.9303241
-        },
-        {
-            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0003",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FormatedCell1@en"
+            "Property:Modification_date-23aux": 2459997.9303241,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL3329298abec64263aac9c808c2f53858/S0000"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL5cede93e53054e23b6f4a18004e22c1c"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858"
-            }
-        },
-        {
-            "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858",
-            "@type": [
-                "Category:LabObject",
-                "Category:Labprocess-2FInstance",
-                "swivt:Subject"
-            ],
             "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL3329298abec64263aac9c808c2f53858"
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL3329298abec64263aac9c808c2f53858/S0000"
             },
             "swivt:wikiPageModificationDate": {
                 "@type": "xsd:dateTime",
-                "@value": "2023-02-22T10:18:16+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL3329298abec64263aac9c808c2f53858"
-            },
-            "Property:HasCreationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-02-22T10:17:53+00:00"
-            },
-            "Property:HasCreationDate-23aux": 2459997.9290857,
-            "Property:HasDescription": "Trocknungsdauer kaop",
-            "Property:HasName": "Formation Protocol",
-            "Property:HasObject": [
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0000"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0001"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0053"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0002"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0052"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0003"
-                },
-                {
-                    "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858-23O0051"
-                }
-            ],
-            "Property:HasOutputCategory": {
-                "@id": "Category:OSLa8f80efb5199429cb58989c5a5558304"
-            },
-            "Property:HasOutputType": {
-                "@id": "Material:OSLd14c860458ea4b9aaf93a4bf64838ac7"
-            },
-            "Property:HasProject": {
-                "@id": "kiprobatt:KIproBatt"
-            },
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "LabProcess:OSL6d6a05be73d64293a34654c6b9b48eb0"
-            },
-            "Property:Modification_date-23aux": 2459997.9293519
+                "@value": "2023-02-22T10:19:40+00:00"
+            }
         },
         {
             "@id": "LabObject:OSL3329298abec64263aac9c808c2f53858/S0000-23P0000",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "CellCount",
             "Property:HasProperty": {

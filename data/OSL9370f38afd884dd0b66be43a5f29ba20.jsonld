@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,10 +73,607 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20",
+            "@type": [
+                "Category:LabObject",
+                "Category:Labprocess-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasCreationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:11:10+00:00"
+            },
+            "Property:HasCreationDate-23aux": 2460031.966088,
+            "Property:HasDescription": "Drying Time",
+            "Property:HasName": "Degassing Protocol",
+            "Property:HasObject": [
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
+                },
+                {
+                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
+                }
+            ],
+            "Property:HasOutputCategory": {
+                "@id": "Category:OSLfd9941a61639408b9426ba07bd4ee0fd"
+            },
+            "Property:HasOutputType": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:HasProject": {
+                "@id": "kiprobatt:KIproBatt"
+            },
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "LabProcess:OSLdc7b328d2c0b4348ae5e60e2ee7b9fb8"
+            },
+            "Property:Modification_date-23aux": 2460031.96625,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:11:24+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:DegassedCell1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0000",
+            "@type": [
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:11:36+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2460031.9663889,
+            "Property:HasName": "Cell Count Determination",
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:11:36+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2460031.9663889,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            },
+            "Property:Modification_date-23aux": 2460031.9665625,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:11:51+00:00"
+            }
+        },
         {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0000-23P0000",
             "@type": [
@@ -92,10 +690,10 @@
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsProcessParameterOf": {
@@ -103,99 +701,61 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0316",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010",
             "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
+                "Category:ProcessStepInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "DegassedCellMass16",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:13:07+00:00"
             },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
+            "Property:HasEndDateAndTime-23aux": 2460031.9674421,
+            "Property:HasName": "Degassing",
+            "Property:HasOutput": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
             },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0220",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass20",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0006",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "CellSelection6",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0006"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0000"
+            },
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:13:07+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2460031.9674421,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            },
+            "Property:Modification_date-23aux": 2460031.9737037,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-03-28T11:22:08+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0001",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection1",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0001"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0006"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0001"
             },
             "Property:IsInstanceOf": [
                 {
@@ -206,27 +766,27 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0013",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0002",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection13",
+            "Property:HasName": "CellSelection2",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0012"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0002"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0012"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0002"
             },
             "Property:IsInstanceOf": [
                 {
@@ -237,33 +797,41 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0003",
             "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
+            "Property:HasName": "CellSelection3",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0003"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            "Property:HasValue": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0003"
             },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
@@ -298,434 +866,10 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0007",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection7",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0007"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0007"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0308",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DegassedCellMass8",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0001",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection1",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0001"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0001"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0320",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DegassedCellMass20",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010",
-            "@type": [
-                "Category:ProcessStepInstance",
-                "swivt:Subject"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:22:08+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:13:07+00:00"
-            },
-            "Property:HasEndDateAndTime-23aux": 2460031.9674421,
-            "Property:HasName": "Degassing",
-            "Property:HasOutput": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
-            },
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0000"
-            },
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:13:07+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2460031.9674421,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            },
-            "Property:Modification_date-23aux": 2460031.9737037
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0307",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass7",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0213",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass13",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0203",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass3",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0211",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass11",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0208",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass8",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0206",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass6",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0218",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass18",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0005",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "CellSelection5",
             "Property:HasPredecessor": {
@@ -753,71 +897,20 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0318",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0006",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "DegassedCellMass18",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0002",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection2",
+            "Property:HasName": "CellSelection6",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0002"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0006"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0002"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0006"
             },
             "Property:IsInstanceOf": [
                 {
@@ -828,156 +921,42 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0014",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0007",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection14",
+            "Property:HasName": "CellSelection7",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0013"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0007"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0013"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0007"
             },
             "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
                 {
                     "@id": "Term:Parameter/InputObject"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0304",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass4",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0319",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DegassedCellMass19",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0000",
-            "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:11:51+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20/S0000"
-            },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:11:36+00:00"
-            },
-            "Property:HasEndDateAndTime-23aux": 2460031.9663889,
-            "Property:HasName": "Cell Count Determination",
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:11:36+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2460031.9663889,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            },
-            "Property:Modification_date-23aux": 2460031.9665625
         },
         {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0008",
@@ -997,10 +976,10 @@
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/InputObject"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/InputObject"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -1011,56 +990,10 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017",
-            "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006",
-            "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0009",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "CellSelection9",
             "Property:HasPredecessor": {
@@ -1088,429 +1021,10 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0101",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "GloveboxDeviceSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolType"
-                },
-                {
-                    "@id": "Property:HasTool"
-                },
-                {
-                    "@id": "Property:HasToolSetup"
-                }
-            ],
-            "Property:HasToolType": {
-                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
-            },
-            "Property:HasValue": {
-                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0017",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "CellSelection17",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0017"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0017"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0305",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass5",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0310",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass10",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0314",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass14",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0212",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass12",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0309",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DegassedCellMass9",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008",
-            "@type": [
-                "Category:LabProcessObject",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0301",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass1",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0100",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FillingDeviceSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolSetup"
-                },
-                {
-                    "@id": "Property:HasToolType"
-                },
-                {
-                    "@id": "Property:HasTool"
-                }
-            ],
-            "Property:HasTool": {
-                "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
-            },
-            "Property:HasToolType": {
-                "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
-            },
-            "Property:HasValue": [
-                {
-                    "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
-                },
-                {
-                    "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
-                }
-            ],
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0003",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection3",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0003"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0003"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0313",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass13",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0010",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "CellSelection10",
             "Property:HasPredecessor": {
@@ -1538,267 +1052,20 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0219",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0011",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "FomatedCellMass19",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0204",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass4",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0216",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass16",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0306",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass6",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0312",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass12",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0214",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass14",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0315",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass15",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0209",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass9",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016",
-            "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0018",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection18",
+            "Property:HasName": "CellSelection11",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0018"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0011"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0018"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0011"
             },
             "Property:IsInstanceOf": [
                 {
@@ -1809,35 +1076,7 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0215",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass15",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
@@ -1875,43 +1114,20 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0013",
             "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
+                "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0011",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection11",
+            "Property:HasName": "CellSelection13",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0011"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0012"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0011"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0012"
             },
             "Property:IsInstanceOf": [
                 {
@@ -1922,27 +1138,27 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0020",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0014",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection20",
+            "Property:HasName": "CellSelection14",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0020"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0013"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0020"
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0013"
             },
             "Property:IsInstanceOf": [
                 {
@@ -1953,137 +1169,7 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0311",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "DegassedCellMass11",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0210",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass10",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0202",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass2",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
@@ -2092,8 +1178,8 @@
         {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0015",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "CellSelection15",
             "Property:HasPredecessor": {
@@ -2115,318 +1201,6 @@
             ],
             "Property:IsObjectParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018",
-            "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014",
-            "@type": [
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabObject",
-                "Category:Labprocess-2FInstance"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:11:24+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL9370f38afd884dd0b66be43a5f29ba20"
-            },
-            "Property:HasCreationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-03-28T11:11:10+00:00"
-            },
-            "Property:HasCreationDate-23aux": 2460031.966088,
-            "Property:HasDescription": "Drying Time",
-            "Property:HasName": "Degassing Protocol",
-            "Property:HasObject": [
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
-                },
-                {
-                    "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
-                }
-            ],
-            "Property:HasOutputCategory": {
-                "@id": "Category:OSLfd9941a61639408b9426ba07bd4ee0fd"
-            },
-            "Property:HasOutputType": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:HasProject": {
-                "@id": "kiprobatt:KIproBatt"
-            },
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "LabProcess:OSLdc7b328d2c0b4348ae5e60e2ee7b9fb8"
-            },
-            "Property:Modification_date-23aux": 2460031.96625
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0207",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass7",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0303",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "DegassedCellMass3",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DegassedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0217",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass17",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0205",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FomatedCellMass5",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0201",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "FomatedCellMass1",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:FomatedCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
@@ -2464,6 +1238,68 @@
             }
         },
         {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0017",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection17",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0017"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0017"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0018",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection18",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0018"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0018"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
             "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0019",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
@@ -2481,14 +1317,1145 @@
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/InputObject"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/InputObject"
                 }
             ],
             "Property:IsObjectParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0020",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection20",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0020"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL9f61349f3b81400b9f4049ac95e03cd7-23O0020"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0100",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FillingDeviceSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasTool": {
+                "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
+            },
+            "Property:HasToolType": {
+                "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
+            },
+            "Property:HasValue": [
+                {
+                    "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
+                },
+                {
+                    "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
+                }
+            ],
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0101",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "GloveboxDeviceSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasToolType": {
+                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
+            },
+            "Property:HasValue": {
+                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0201",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass1",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0202",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass2",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0203",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass3",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0204",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass4",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0205",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass5",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0206",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass6",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0207",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass7",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0208",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass8",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0209",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass9",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0210",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass10",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0211",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass11",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0212",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass12",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0213",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass13",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0214",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass14",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0215",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass15",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0216",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass16",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0217",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass17",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0017"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0218",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass18",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0219",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass19",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0220",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FomatedCellMass20",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:FomatedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0301",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass1",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0302",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass2",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0303",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass3",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0304",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass4",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0305",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass5",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0306",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass6",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0307",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass7",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0007"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0308",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass8",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0008"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0309",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass9",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0009"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0310",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass10",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0010"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0311",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass11",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0011"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0312",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass12",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0012"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0313",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass13",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0013"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0314",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass14",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0014"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0315",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass15",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0015"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0316",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass16",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0016"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
@@ -2506,13 +2473,13 @@
             },
             "Property:IsInstanceOf": [
                 {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DegassedCellMass"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -2523,54 +2490,87 @@
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0302",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0318",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasName": "DegassedCellMass2",
+            "Property:HasName": "DegassedCellMass18",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
                     "@id": "Term:DegassedCellMass"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0002"
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0018"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         },
         {
-            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0001",
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0319",
             "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:DegassedCell1@en"
+            "Property:HasName": "DegassedCellMass19",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0019"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLd10cdd23be944d57a460ae9aa2ec0674"
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010-23P0320",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "DegassedCellMass20",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
             },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DegassedCellMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20-23O0020"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL9370f38afd884dd0b66be43a5f29ba20/S0010"
             }
         }
     ]

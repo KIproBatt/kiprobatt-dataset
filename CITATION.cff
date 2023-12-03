@@ -37,9 +37,10 @@ abstract: >-
 
   Contains the production parameters of battery cells
   produced in the KIproBatt project (lab-scale) as rdf-graph
-  (serialized as json-ld). Assets (e. g. images) are
-  referenced via IRIs and can be downloaded from the
-  [KIproBatt Platform](https://kiprobatt.de/wiki).
+  (serialized as json-ld). Assets / files are referenced via resolveable IRIs. 
+  Small files (e. g. cycling data csv exports) are included in this dataset 
+  while large files (e. g. images) are not included due to their size 
+  but can be downloaded from the [KIproBatt Platform](https://kiprobatt.de/wiki). 
 keywords:
   - battery
   - production
@@ -49,5 +50,5 @@ keywords:
   - kiprobatt
   - inzepro
 license: CC-BY-4.0
-version: v0.2.1
+version: v0.3.0
 date-released: '2023-10-08'

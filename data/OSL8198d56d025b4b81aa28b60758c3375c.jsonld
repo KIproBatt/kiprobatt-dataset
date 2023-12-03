@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,15 +73,226 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
         {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c",
+            "@type": [
+                "Category:LabObject",
+                "Category:Labprocess-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasCreationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:12:48+00:00"
+            },
+            "Property:HasCreationDate-23aux": 2459886.3005556,
+            "Property:HasName": "Feature Extraction Instance",
+            "Property:HasObject": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
+            },
+            "Property:HasOutputCategory": {
+                "@id": "Category:File"
+            },
+            "Property:HasOutputType": {
+                "@id": "kiprobatt:FileType-3AOSLd017fae638d949d1b148ec587e86b822"
+            },
+            "Property:HasProject": {
+                "@id": "kiprobatt:KIproBatt"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "LabProcess:OSL8d3ddce404964e89b37e6368071a822b"
+            },
+            "Property:Modification_date-23aux": 2459886.3006597,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:12:57+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:PlotImage1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
+            }
+        },
+        {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000",
+            "@type": [
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:13:14+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2459886.3008565,
+            "Property:HasName": "Configuration",
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:13:14+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2459886.3008565,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
+            },
+            "Property:Modification_date-23aux": 2459886.3010417,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:13:30+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000-23P0001",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellCount",
+            "Property:HasNumberOfEntities": 4.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:4"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            }
+        },
+        {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020",
+            "@type": [
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:26:02+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2459886.3097454,
+            "Property:HasName": "Feature Extraction",
+            "Property:HasOutput": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
+            },
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            },
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:26:02+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2459886.3097454,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
+            },
+            "Property:Modification_date-23aux": 2459886.3186227,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0020"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0020"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-11-02T19:38:49+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0000",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "AlgorithmSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasTool": {
+                "@id": "kiprobatt:V1.34"
+            },
+            "Property:HasToolType": {
+                "@id": "kiprobatt:Software-3AOSLb636d4fd75e444309d2274344e9d2481"
+            },
+            "Property:HasValue": [
+                {
+                    "@id": "kiprobatt:Software-3AOSLb636d4fd75e444309d2274344e9d2481"
+                },
+                {
+                    "@id": "kiprobatt:V1.34"
+                }
+            ],
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020"
+            }
+        },
+        {
             "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0001",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasName": "ExportFileSelection1",
             "Property:HasPredecessor": {
@@ -139,137 +351,10 @@
             }
         },
         {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000-23P0001",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellCount",
-            "Property:HasNumberOfEntities": 4.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:4"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000"
-            }
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0004",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ExportFileSelection4",
-            "Property:HasPredecessor": {
-                "@id": "File:Gron_KI_220803-2Dkaop-2D0254-2Dmi037.txt"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "File:Gron_KI_220803-2Dkaop-2D0254-2Dmi037.txt"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0000",
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0003",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
-            ],
-            "Property:HasName": "AlgorithmSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolSetup"
-                },
-                {
-                    "@id": "Property:HasTool"
-                },
-                {
-                    "@id": "Property:HasToolType"
-                }
-            ],
-            "Property:HasTool": {
-                "@id": "kiprobatt:V1.34"
-            },
-            "Property:HasToolType": {
-                "@id": "kiprobatt:Software-3AOSLb636d4fd75e444309d2274344e9d2481"
-            },
-            "Property:HasValue": [
-                {
-                    "@id": "kiprobatt:V1.34"
-                },
-                {
-                    "@id": "kiprobatt:Software-3AOSLb636d4fd75e444309d2274344e9d2481"
-                }
-            ],
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020"
-            }
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:PlotImage1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
-            }
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0003",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
             ],
             "Property:HasName": "ExportFileSelection3",
             "Property:HasPredecessor": {
@@ -297,39 +382,35 @@
             }
         },
         {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000",
+            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0004",
             "@type": [
-                "Category:ProcessStepInstance",
+                "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            "Property:HasName": "ExportFileSelection4",
+            "Property:HasPredecessor": {
+                "@id": "File:Gron_KI_220803-2Dkaop-2D0254-2Dmi037.txt"
             },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:13:30+00:00"
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
             },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0000"
+            "Property:HasValue": {
+                "@id": "File:Gron_KI_220803-2Dkaop-2D0254-2Dmi037.txt"
             },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:13:14+00:00"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
             },
-            "Property:HasEndDateAndTime-23aux": 2459886.3008565,
-            "Property:HasName": "Configuration",
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:13:14+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2459886.3008565,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
-            },
-            "Property:Modification_date-23aux": 2459886.3010417
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020"
+            }
         },
         {
             "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020-23P0101",
@@ -361,87 +442,6 @@
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020"
             }
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0020",
-            "@type": [
-                "Category:ProcessStepInstance",
-                "swivt:Subject"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0020"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:38:49+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c/S0020"
-            },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:26:02+00:00"
-            },
-            "Property:HasEndDateAndTime-23aux": 2459886.3097454,
-            "Property:HasName": "Feature Extraction",
-            "Property:HasOutput": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
-            },
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c/S0000"
-            },
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:26:02+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2459886.3097454,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c"
-            },
-            "Property:Modification_date-23aux": 2459886.3186227
-        },
-        {
-            "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c",
-            "@type": [
-                "Category:LabObject",
-                "Category:Labprocess-2FInstance",
-                "swivt:Subject"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:12:57+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSL8198d56d025b4b81aa28b60758c3375c"
-            },
-            "Property:HasCreationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-11-02T19:12:48+00:00"
-            },
-            "Property:HasCreationDate-23aux": 2459886.3005556,
-            "Property:HasName": "Feature Extraction Instance",
-            "Property:HasObject": {
-                "@id": "LabObject:OSL8198d56d025b4b81aa28b60758c3375c-23O0101"
-            },
-            "Property:HasOutputCategory": {
-                "@id": "Category:File"
-            },
-            "Property:HasOutputType": {
-                "@id": "kiprobatt:FileType-3AOSLd017fae638d949d1b148ec587e86b822"
-            },
-            "Property:HasProject": {
-                "@id": "kiprobatt:KIproBatt"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "LabProcess:OSL8d3ddce404964e89b37e6368071a822b"
-            },
-            "Property:Modification_date-23aux": 2459886.3006597
         }
     ]
 }

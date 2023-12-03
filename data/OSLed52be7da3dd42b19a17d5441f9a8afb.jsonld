@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,175 +73,96 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0007",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb",
             "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
+                "Category:LabObject",
+                "Category:Labprocess-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection7",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL57b5895ffba14252a72b6f0d8d29a854-23O0002"
+            "Property:HasCreationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-23T07:24:54+00:00"
             },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL57b5895ffba14252a72b6f0d8d29a854-23O0002"
-            },
-            "Property:IsInstanceOf": [
+            "Property:HasCreationDate-23aux": 2459845.8089583,
+            "Property:HasDescription": "C-Rate\n\n4 Stück (0200, 1100, 1200 und 1300) ein Tag später befüllt",
+            "Property:HasName": "Filling Protocol",
+            "Property:HasObject": [
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
                 },
                 {
-                    "@id": "Term:Parameter/InputObject"
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
+                },
+                {
+                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
                 }
             ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
+            "Property:HasOutputCategory": {
+                "@id": "Category:OSLd83db70a5bf746fb9126d84eb9f6366d"
             },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            "Property:HasOutputType": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:HasProject": {
+                "@id": "kiprobatt:KIproBatt"
+            },
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "LabProcess:OSLbc089261bd1b470c9ec5e159ce3442c6"
+            },
+            "Property:Modification_date-23aux": 2459997.9418866,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-02-22T10:36:19+00:00"
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0003",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001",
             "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "CellSelection3",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL4e830a86b3a04987a7d34997f582c73f-23O0002"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL4e830a86b3a04987a7d34997f582c73f-23O0002"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/InputObject"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0012",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection12",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLafc08a80a1ca4f39b01d65dacbba8fca-23O0002"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSLafc08a80a1ca4f39b01d65dacbba8fca-23O0002"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/InputObject"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0312",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume12",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0309",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume9",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007",
-            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
                 "Category:LabProcessObject",
                 "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject"
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:FilledCell1@en"
@@ -257,23 +179,308 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0204",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:FilledCell1@en"
+            },
+            "Property:HasNumberOfEntities": 0.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000",
+            "@type": [
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-21T13:30:00+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2459844.0625,
+            "Property:HasName": "Cell Count Determination",
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-21T12:15:00+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2459844.0104167,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            },
+            "Property:Modification_date-23aux": 2459845.8129745,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-23T07:30:41+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000-23P0000",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasMass": 0.0117708,
-            "Property:HasName": "DryCellWithBracingMass4",
+            "Property:HasName": "CellCount",
+            "Property:HasNumberOfEntities": 12.0,
             "Property:HasProperty": {
-                "@id": "Property:HasMass"
+                "@id": "Property:HasNumberOfEntities"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:11.7708_g"
+                "@id": "kiprobatt:12"
             },
             "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
                 {
                     "@id": "Term:Parameter/Actual"
                 },
@@ -281,28 +488,94 @@
                     "@id": "Term:Parameter/Quantitative"
                 }
             ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
-            },
             "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0010",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection10",
+            "Property:HasEndDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-23T07:31:47+00:00"
+            },
+            "Property:HasEndDateAndTime-23aux": 2459845.8137384,
+            "Property:HasName": "Filling",
+            "Property:HasOutput": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
+            },
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSL21e27ec9aea0447aa4846c018e4b9872-23O0002"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
+            },
+            "Property:HasStartDateAndTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-23T07:31:47+00:00"
+            },
+            "Property:HasStartDateAndTime-23aux": 2459845.8137384,
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsSubprocessOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            },
+            "Property:Modification_date-23aux": 2459845.822581,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2022-09-23T07:44:31+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0000",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteSelection",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLa64368d137e7432e9ebab5ad05cff30b"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSL21e27ec9aea0447aa4846c018e4b9872-23O0002"
+                "@id": "LabObject:OSLa64368d137e7432e9ebab5ad05cff30b"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0001",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection1",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLaf60b2b939bc48959c42295b1025bffb-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSLaf60b2b939bc48959c42295b1025bffb-23O0002"
             },
             "Property:IsInstanceOf": [
                 {
@@ -313,70 +586,7 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0011",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection11",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSL94be14b1bb1745c3b3e86291e4939435-23O0002"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSL94be14b1bb1745c3b3e86291e4939435-23O0002"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/InputObject"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0303",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "ElectrolyteVolume3",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
@@ -414,81 +624,20 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000",
-            "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-23T07:30:41+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
-            },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-21T13:30:00+00:00"
-            },
-            "Property:HasEndDateAndTime-23aux": 2459844.0625,
-            "Property:HasName": "Cell Count Determination",
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-21T12:15:00+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2459844.0104167,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            },
-            "Property:Modification_date-23aux": 2459845.8129745
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000-23P0000",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0003",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "CellCount",
-            "Property:HasNumberOfEntities": 12.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:12"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0009",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection9",
+            "Property:HasName": "CellSelection3",
             "Property:HasPredecessor": {
-                "@id": "LabObject:OSLace56a94971840c286f1267b0a9f0ed0-23O0002"
+                "@id": "LabObject:OSL4e830a86b3a04987a7d34997f582c73f-23O0002"
             },
             "Property:HasProperty": {
                 "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSLace56a94971840c286f1267b0a9f0ed0-23O0002"
+                "@id": "LabObject:OSL4e830a86b3a04987a7d34997f582c73f-23O0002"
             },
             "Property:IsInstanceOf": [
                 {
@@ -499,7 +648,7 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
@@ -537,854 +686,6 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010",
-            "@type": [
-                "Category:ProcessStepInstance",
-                "swivt:Subject"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-23T07:44:31+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            },
-            "Property:HasEndDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-23T07:31:47+00:00"
-            },
-            "Property:HasEndDateAndTime-23aux": 2459845.8137384,
-            "Property:HasName": "Filling",
-            "Property:HasOutput": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
-            },
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0000"
-            },
-            "Property:HasStartDateAndTime": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-23T07:31:47+00:00"
-            },
-            "Property:HasStartDateAndTime-23aux": 2459845.8137384,
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsSubprocessOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            },
-            "Property:Modification_date-23aux": 2459845.822581
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0113",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "InjectionPressure",
-            "Property:HasPressure": 10000.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasPressure"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:100_mbar"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0301",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "ElectrolyteVolume1",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0411",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0134701,
-            "Property:HasName": "WettCellMass11",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.4701_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0112",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "ElectrolyteFlushingVolume",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:15_ml"
-            },
-            "Property:HasVolume": 1.5e-05,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabObject",
-                "Category:Labprocess-2FInstance"
-            ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-02-22T10:36:19+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed52be7da3dd42b19a17d5441f9a8afb"
-            },
-            "Property:HasCreationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2022-09-23T07:24:54+00:00"
-            },
-            "Property:HasCreationDate-23aux": 2459845.8089583,
-            "Property:HasDescription": "C-Rate\n\n4 Stück (0200, 1100, 1200 und 1300) ein Tag später befüllt",
-            "Property:HasName": "Filling Protocol",
-            "Property:HasObject": [
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
-                },
-                {
-                    "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
-                }
-            ],
-            "Property:HasOutputCategory": {
-                "@id": "Category:OSLd83db70a5bf746fb9126d84eb9f6366d"
-            },
-            "Property:HasOutputType": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:HasProject": {
-                "@id": "kiprobatt:KIproBatt"
-            },
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "LabProcess:OSLbc089261bd1b470c9ec5e159ce3442c6"
-            },
-            "Property:Modification_date-23aux": 2459997.9418866
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0406",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0133441,
-            "Property:HasName": "WettCellMass6",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.3441_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0304",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume4",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0302",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "ElectrolyteVolume2",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0408",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0134581,
-            "Property:HasName": "WettCellMass8",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.4581_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0212",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0117345,
-            "Property:HasName": "DryCellWithBracingMass12",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11.7345_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0402",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0133646,
-            "Property:HasName": "WettCellMass2",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.3646_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0211",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0118149,
-            "Property:HasName": "DryCellWithBracingMass11",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11.8149_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0409",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0133476,
-            "Property:HasName": "WettCellMass9",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.3476_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0404",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0133796,
-            "Property:HasName": "WettCellMass4",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.3796_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:WettCellMass"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0210",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0117805,
-            "Property:HasName": "DryCellWithBracingMass10",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11.7805_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0202",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0117797,
-            "Property:HasName": "DryCellWithBracingMass2",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11.7797_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001",
-            "@type": [
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0008",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "CellSelection8",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLc041f8956e654354beeaaeb07161a375-23O0002"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSLc041f8956e654354beeaaeb07161a375-23O0002"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/InputObject"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0403",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0134055,
-            "Property:HasName": "WettCellMass3",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.4055_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:WettCellMass"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0100",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasName": "FillingDeviceSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolType"
-                },
-                {
-                    "@id": "Property:HasTool"
-                },
-                {
-                    "@id": "Property:HasToolSetup"
-                }
-            ],
-            "Property:HasTool": {
-                "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
-            },
-            "Property:HasToolType": {
-                "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
-            },
-            "Property:HasValue": [
-                {
-                    "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
-                },
-                {
-                    "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
-                }
-            ],
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0308",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume8",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
             "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0005",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
@@ -1416,28 +717,27 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0306",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0006",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasName": "ElectrolyteVolume6",
+            "Property:HasName": "CellSelection6",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLeacd1f4f50714be4a51ccab4fa67188f-23O0002"
+            },
             "Property:HasProperty": {
-                "@id": "Property:HasVolume"
+                "@id": "Property:HasPredecessor"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
+                "@id": "LabObject:OSLeacd1f4f50714be4a51ccab4fa67188f-23O0002"
             },
-            "Property:HasVolume": 1.1e-06,
             "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
                 {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Quantitative"
+                    "@id": "Term:Parameter/InputObject"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -1448,26 +748,289 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0007",
             "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcess-2FGlobalObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
+            "Property:HasName": "CellSelection7",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL57b5895ffba14252a72b6f0d8d29a854-23O0002"
             },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
+            "Property:HasValue": {
+                "@id": "LabObject:OSL57b5895ffba14252a72b6f0d8d29a854-23O0002"
             },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0008",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection8",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLc041f8956e654354beeaaeb07161a375-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSLc041f8956e654354beeaaeb07161a375-23O0002"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0009",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection9",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLace56a94971840c286f1267b0a9f0ed0-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSLace56a94971840c286f1267b0a9f0ed0-23O0002"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0010",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection10",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL21e27ec9aea0447aa4846c018e4b9872-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL21e27ec9aea0447aa4846c018e4b9872-23O0002"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0011",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection11",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSL94be14b1bb1745c3b3e86291e4939435-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSL94be14b1bb1745c3b3e86291e4939435-23O0002"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0012",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "CellSelection12",
+            "Property:HasPredecessor": {
+                "@id": "LabObject:OSLafc08a80a1ca4f39b01d65dacbba8fca-23O0002"
+            },
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
+            },
+            "Property:HasValue": {
+                "@id": "LabObject:OSLafc08a80a1ca4f39b01d65dacbba8fca-23O0002"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0100",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "FillingDeviceSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasTool": {
+                "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
+            },
+            "Property:HasToolType": {
+                "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
+            },
+            "Property:HasValue": [
+                {
+                    "@id": "Device:OSL8f44538e3f1247b3a40422054c664a14"
+                },
+                {
+                    "@id": "LabObject:OSLf7e62edcf0e64084a0d92ff0f7a9efe8"
+                }
+            ],
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0101",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "GloveboxDeviceSelection",
+            "Property:HasProperty": [
+                {
+                    "@id": "Property:HasTool"
+                },
+                {
+                    "@id": "Property:HasToolSetup"
+                },
+                {
+                    "@id": "Property:HasToolType"
+                }
+            ],
+            "Property:HasTool": {
+                "@id": "LabObject:OSLdd97bab91f6541f78bd441aae6412c28"
+            },
+            "Property:HasToolType": {
+                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
+            },
+            "Property:HasValue": [
+                {
+                    "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
+                },
+                {
+                    "@id": "LabObject:OSLdd97bab91f6541f78bd441aae6412c28"
+                }
+            ],
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceSetupUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceTypeUsed"
+                },
+                {
+                    "@id": "Term:Parameter/DeviceUsed"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
             }
         },
         {
@@ -1497,45 +1060,100 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0305",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0112",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "ElectrolyteVolume5",
+            "Property:HasName": "ElectrolyteFlushingVolume",
             "Property:HasProperty": {
                 "@id": "Property:HasVolume"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
+                "@id": "kiprobatt:15_ml"
             },
-            "Property:HasVolume": 1.1e-06,
+            "Property:HasVolume": 1.5e-05,
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:ElectrolyteVolume"
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0113",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "InjectionPressure",
+            "Property:HasPressure": 10000.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasPressure"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:100_mbar"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0114",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "SealingPressure",
+            "Property:HasPressure": 5000.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasPressure"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:50_mbar"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0201",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0117497,
+            "Property:HasName": "DryCellWithBracingMass1",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:11.7497_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
@@ -1545,39 +1163,103 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0209",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0202",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasMass": 0.0117614,
-            "Property:HasName": "DryCellWithBracingMass9",
+            "Property:HasMass": 0.0117797,
+            "Property:HasName": "DryCellWithBracingMass2",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:11.7614_g"
+                "@id": "kiprobatt:11.7797_g"
             },
             "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
                 {
                     "@id": "Term:DryCellWithBracingMass"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0203",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0117778,
+            "Property:HasName": "DryCellWithBracingMass3",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:11.7778_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0204",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0117708,
+            "Property:HasName": "DryCellWithBracingMass4",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:11.7708_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
@@ -1586,8 +1268,8 @@
         {
             "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0205",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
             "Property:HasMass": 0.0117791,
             "Property:HasName": "DryCellWithBracingMass5",
@@ -1616,111 +1298,60 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "Category:LabProcessOutput"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0000",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0206",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "ElectrolyteSelection",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLa64368d137e7432e9ebab5ad05cff30b"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSLa64368d137e7432e9ebab5ad05cff30b"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0307",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume7",
-            "Property:HasProperty": {
-                "@id": "Property:HasVolume"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
-            },
-            "Property:HasVolume": 1.1e-06,
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:ElectrolyteVolume"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0407",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0132964,
-            "Property:HasName": "WettCellMass7",
+            "Property:HasMass": 0.0117784,
+            "Property:HasName": "DryCellWithBracingMass6",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:13.2964_g"
+                "@id": "kiprobatt:11.7784_g"
             },
             "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
+                },
                 {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0207",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0117549,
+            "Property:HasName": "DryCellWithBracingMass7",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:11.7549_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
                 },
                 {
-                    "@id": "Term:WettCellMass"
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -1763,60 +1394,60 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0405",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0209",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasMass": 0.0132587,
-            "Property:HasName": "WettCellMass5",
+            "Property:HasMass": 0.0117614,
+            "Property:HasName": "DryCellWithBracingMass9",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:13.2587_g"
+                "@id": "kiprobatt:11.7614_g"
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:DryCellWithBracingMass"
                 },
                 {
-                    "@id": "Term:WettCellMass"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0410",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0210",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasMass": 0.0132739,
-            "Property:HasName": "WettCellMass10",
+            "Property:HasMass": 0.0117805,
+            "Property:HasName": "DryCellWithBracingMass10",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:13.2739_g"
+                "@id": "kiprobatt:11.7805_g"
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:WettCellMass"
+                    "@id": "Term:DryCellWithBracingMass"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -1827,51 +1458,28 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0211",
             "@type": [
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessObject",
-                "Category:LabProcessOutput"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0311",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "ElectrolyteVolume11",
+            "Property:HasMass": 0.0118149,
+            "Property:HasName": "DryCellWithBracingMass11",
             "Property:HasProperty": {
-                "@id": "Property:HasVolume"
+                "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:1.1_ml"
+                "@id": "kiprobatt:11.8149_g"
             },
-            "Property:HasVolume": 1.1e-06,
             "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:DryCellWithBracingMass"
+                },
                 {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:ElectrolyteVolume"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -1882,18 +1490,18 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0203",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0212",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasMass": 0.0117778,
-            "Property:HasName": "DryCellWithBracingMass3",
+            "Property:HasMass": 0.0117345,
+            "Property:HasName": "DryCellWithBracingMass12",
             "Property:HasProperty": {
                 "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:11.7778_g"
+                "@id": "kiprobatt:11.7345_g"
             },
             "Property:IsInstanceOf": [
                 {
@@ -1907,200 +1515,29 @@
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0114",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "SealingPressure",
-            "Property:HasPressure": 5000.0,
-            "Property:HasProperty": {
-                "@id": "Property:HasPressure"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:50_mbar"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0206",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0301",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasMass": 0.0117784,
-            "Property:HasName": "DryCellWithBracingMass6",
+            "Property:HasName": "ElectrolyteVolume1",
             "Property:HasProperty": {
-                "@id": "Property:HasMass"
+                "@id": "Property:HasVolume"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:11.7784_g"
+                "@id": "kiprobatt:1.1_ml"
             },
+            "Property:HasVolume": 1.1e-06,
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0101",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "GloveboxDeviceSelection",
-            "Property:HasProperty": [
-                {
-                    "@id": "Property:HasToolSetup"
-                },
-                {
-                    "@id": "Property:HasToolType"
-                },
-                {
-                    "@id": "Property:HasTool"
-                }
-            ],
-            "Property:HasTool": {
-                "@id": "LabObject:OSLdd97bab91f6541f78bd441aae6412c28"
-            },
-            "Property:HasToolType": {
-                "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
-            },
-            "Property:HasValue": [
-                {
-                    "@id": "Device:OSL795f8130ffd24daaaff613db085740e6"
-                },
-                {
-                    "@id": "LabObject:OSLdd97bab91f6541f78bd441aae6412c28"
-                }
-            ],
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/DeviceTypeUsed"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceUsed"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/DeviceSetupUsed"
-                }
-            ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0207",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0117549,
-            "Property:HasName": "DryCellWithBracingMass7",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11.7549_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:DryCellWithBracingMass"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0006",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasName": "CellSelection6",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLeacd1f4f50714be4a51ccab4fa67188f-23O0002"
-            },
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
-            },
-            "Property:HasValue": {
-                "@id": "LabObject:OSLeacd1f4f50714be4a51ccab4fa67188f-23O0002"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
-            },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0401",
-            "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
-                "swivt:Subject"
-            ],
-            "Property:HasMass": 0.0133474,
-            "Property:HasName": "WettCellMass1",
-            "Property:HasProperty": {
-                "@id": "Property:HasMass"
-            },
-            "Property:HasValue": {
-                "@id": "kiprobatt:13.3474_g"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:WettCellMass"
+                    "@id": "Term:ElectrolyteVolume"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
@@ -2117,78 +1554,256 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0302",
             "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:FilledCell1@en"
-            },
-            "Property:HasNumberOfEntities": 0.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLbe31a19a3a134e249e5435a074757597"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0412",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
-            ],
-            "Property:HasMass": 0.0133432,
-            "Property:HasName": "WettCellMass12",
+            "Property:HasName": "ElectrolyteVolume2",
             "Property:HasProperty": {
-                "@id": "Property:HasMass"
+                "@id": "Property:HasVolume"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:13.3432_g"
+                "@id": "kiprobatt:1.1_ml"
             },
+            "Property:HasVolume": 1.1e-06,
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:WettCellMass"
+                    "@id": "Term:ElectrolyteVolume"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0303",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume3",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0304",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume4",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0305",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume5",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0306",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume6",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0307",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume7",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0308",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume8",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0309",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume9",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
@@ -2227,28 +1842,92 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0201",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0311",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasMass": 0.0117497,
-            "Property:HasName": "DryCellWithBracingMass1",
+            "Property:HasName": "ElectrolyteVolume11",
             "Property:HasProperty": {
-                "@id": "Property:HasMass"
+                "@id": "Property:HasVolume"
             },
             "Property:HasValue": {
-                "@id": "kiprobatt:11.7497_g"
+                "@id": "kiprobatt:1.1_ml"
             },
+            "Property:HasVolume": 1.1e-06,
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:DryCellWithBracingMass"
+                    "@id": "Term:ElectrolyteVolume"
                 },
                 {
                     "@id": "Term:Parameter/Actual"
                 },
                 {
                     "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0312",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrolyteVolume12",
+            "Property:HasProperty": {
+                "@id": "Property:HasVolume"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:1.1_ml"
+            },
+            "Property:HasVolume": 1.1e-06,
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:ElectrolyteVolume"
+                },
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0401",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0133474,
+            "Property:HasName": "WettCellMass1",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.3474_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
                 }
             ],
             "Property:IsObjectParameterOf": {
@@ -2259,31 +1938,352 @@
             }
         },
         {
-            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0001",
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0402",
             "@type": [
                 "Category:LabProcess-2FParameter-2FInstance",
                 "swivt:Subject"
             ],
-            "Property:HasName": "CellSelection1",
-            "Property:HasPredecessor": {
-                "@id": "LabObject:OSLaf60b2b939bc48959c42295b1025bffb-23O0002"
-            },
+            "Property:HasMass": 0.0133646,
+            "Property:HasName": "WettCellMass2",
             "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
+                "@id": "Property:HasMass"
             },
             "Property:HasValue": {
-                "@id": "LabObject:OSLaf60b2b939bc48959c42295b1025bffb-23O0002"
+                "@id": "kiprobatt:13.3646_g"
             },
             "Property:IsInstanceOf": [
                 {
-                    "@id": "Term:Parameter/InputObject"
+                    "@id": "Term:Parameter/Actual"
                 },
                 {
-                    "@id": "Term:Parameter/Actual"
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
                 }
             ],
             "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0001"
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0002"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0403",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0134055,
+            "Property:HasName": "WettCellMass3",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.4055_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0003"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0404",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0133796,
+            "Property:HasName": "WettCellMass4",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.3796_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0004"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0405",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0132587,
+            "Property:HasName": "WettCellMass5",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.2587_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0005"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0406",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0133441,
+            "Property:HasName": "WettCellMass6",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.3441_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0006"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0407",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0132964,
+            "Property:HasName": "WettCellMass7",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.2964_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0007"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0408",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0134581,
+            "Property:HasName": "WettCellMass8",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.4581_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0008"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0409",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0133476,
+            "Property:HasName": "WettCellMass9",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.3476_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0009"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0410",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0132739,
+            "Property:HasName": "WettCellMass10",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.2739_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0010"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0411",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0134701,
+            "Property:HasName": "WettCellMass11",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.4701_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0011"
+            },
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010-23P0412",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasMass": 0.0133432,
+            "Property:HasName": "WettCellMass12",
+            "Property:HasProperty": {
+                "@id": "Property:HasMass"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:13.3432_g"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                },
+                {
+                    "@id": "Term:WettCellMass"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb-23O0012"
             },
             "Property:IsProcessParameterOf": {
                 "@id": "LabObject:OSLed52be7da3dd42b19a17d5441f9a8afb/S0010"

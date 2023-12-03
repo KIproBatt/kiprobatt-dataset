@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,12 +73,137 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
         {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0006",
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8",
+            "@type": [
+                "Category:LabObject",
+                "Category:Labprocess-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasCreationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-01-16T16:21:18+00:00"
+            },
+            "Property:HasCreationDate-23aux": 2459961.1814583,
+            "Property:HasDescription": "Stapelgenauigkeit",
+            "Property:HasName": "Separation Protocol",
+            "Property:HasObject": [
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0000"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0001"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0002"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0003"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0004"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0005"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0006"
+                },
+                {
+                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0090"
+                }
+            ],
+            "Property:HasOutputCategory": {
+                "@id": "Category:OSLb1415173552d4921acf30ac51f3bce62"
+            },
+            "Property:HasOutputType": {
+                "@id": "Material:OSLa8ec7bb1ae5d4b52997d12e780ca5833"
+            },
+            "Property:HasProject": {
+                "@id": "kiprobatt:KIproBatt"
+            },
+            "Property:HasStatus": {
+                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "LabProcess:OSL9a645a64b15442398ad3c057e1b64d87"
+            },
+            "Property:Modification_date-23aux": 2459961.1864583,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-01-16T16:28:30+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0000",
+            "@type": [
+                "Category:LabProcess-2FGlobalObject",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "Category:LabProcessOutput",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:ElectrodeMagazine@en"
+            },
+            "Property:HasNumberOfEntities": -16.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSLa8ec7bb1ae5d4b52997d12e780ca5833"
+            },
+            "Property:IsOutputOf": {
+                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0001",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0002",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
+            ],
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            }
+        },
+        {
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0003",
             "@type": [
                 "Category:LabProcess-2FObject",
                 "Category:LabProcessObject",
@@ -113,36 +239,29 @@
             }
         },
         {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8/S0000-23P0000",
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0005",
             "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FParameter-2FInstance"
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
             ],
-            "Property:HasName": "ElectrodeFoilSelection",
-            "Property:HasProperty": {
-                "@id": "Property:HasPredecessor"
+            "Property:HasLabel": {
+                "@id": "kiprobatt:Electrode1@en"
             },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Actual"
-                },
-                {
-                    "@id": "Term:Parameter/InputObject"
-                }
-            ],
-            "Property:IsObjectParameterOf": {
-                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0090"
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
             },
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
             }
         },
         {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0002",
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0006",
             "@type": [
                 "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcessObject"
+                "Category:LabProcessObject",
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:Electrode1@en"
@@ -171,80 +290,11 @@
             }
         },
         {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0005",
-            "@type": [
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject",
-                "swivt:Subject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0000",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FGlobalObject",
-                "Category:LabProcessOutput",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:ElectrodeMagazine@en"
-            },
-            "Property:HasNumberOfEntities": -16.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSLa8ec7bb1ae5d4b52997d12e780ca5833"
-            },
-            "Property:IsOutputOf": {
-                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8"
-            }
-        },
-        {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0001",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcessObject",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
-            }
-        },
-        {
             "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8/S0000",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-01-16T16:24:24+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2023-01-16T16:24:04+00:00"
@@ -265,91 +315,41 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8"
             },
-            "Property:Modification_date-23aux": 2459961.1836111
-        },
-        {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8",
-            "@type": [
-                "Category:LabObject",
-                "Category:Labprocess-2FInstance",
-                "swivt:Subject"
-            ],
+            "Property:Modification_date-23aux": 2459961.1836111,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
+            },
             "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8"
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
             },
             "swivt:wikiPageModificationDate": {
                 "@type": "xsd:dateTime",
-                "@value": "2023-01-16T16:28:30+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLed1a87e04b4f4390944f53dfda0b90c8"
-            },
-            "Property:HasCreationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-01-16T16:21:18+00:00"
-            },
-            "Property:HasCreationDate-23aux": 2459961.1814583,
-            "Property:HasDescription": "Stapelgenauigkeit",
-            "Property:HasName": "Separation Protocol",
-            "Property:HasObject": [
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0005"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0003"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0006"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0002"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0090"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0004"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0000"
-                },
-                {
-                    "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0001"
-                }
-            ],
-            "Property:HasOutputCategory": {
-                "@id": "Category:OSLb1415173552d4921acf30ac51f3bce62"
-            },
-            "Property:HasOutputType": {
-                "@id": "Material:OSLa8ec7bb1ae5d4b52997d12e780ca5833"
-            },
-            "Property:HasProject": {
-                "@id": "kiprobatt:KIproBatt"
-            },
-            "Property:HasStatus": {
-                "@id": "Term:OSLf474ec34b7df451ea8356134241aef8a"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "LabProcess:OSL9a645a64b15442398ad3c057e1b64d87"
-            },
-            "Property:Modification_date-23aux": 2459961.1864583
+                "@value": "2023-01-16T16:24:24+00:00"
+            }
         },
         {
-            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0003",
+            "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8/S0000-23P0000",
             "@type": [
-                "Category:LabProcess-2FObject",
-                "swivt:Subject",
-                "Category:LabProcessObject"
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
             ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:Electrode1@en"
+            "Property:HasName": "ElectrodeFoilSelection",
+            "Property:HasProperty": {
+                "@id": "Property:HasPredecessor"
             },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/InputObject"
+                }
+            ],
+            "Property:IsObjectParameterOf": {
+                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8-23O0090"
             },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL6f819ab9a80947d39b0327083e561786"
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLed1a87e04b4f4390944f53dfda0b90c8/S0000"
             }
         }
     ]

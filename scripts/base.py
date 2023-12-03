@@ -1,5 +1,5 @@
 import json
-from typing import Dict
+from typing import Callable, Dict
 from pyld import jsonld
 import rdflib
 import zipfile
@@ -27,6 +27,96 @@ context = {}
 for key, value in mappings.items():
     prefixes += f"PREFIX {key}: <{value}>\n"
     context[key] = {"@id": value, "@prefix": True}
+
+# from https://github.com/SemanticMediaWiki/SemanticMediaWiki/blob/e04b78ddbc0a1b2181b12f31a51d7f91e723336b/src/Exporter/Escaper.php#L61
+smw_encoding_lists = {
+            "in": [
+                "*",
+                ",",
+
+                ";",
+                "<",
+                ">",
+                "(",
+                ")",
+                "[",
+                "]",
+                "{",
+                "}",
+                "\\",
+                "$",
+                "^",
+                ":",
+                '"',
+                "#",
+                "&",
+                "'",
+                "+",
+                "!",
+                #"%",
+                "-", # added
+            ],
+            "out": [
+                "-2A",
+                "-2C",
+                "-3B",
+                "-3C",
+                "-3E",
+                "-28",
+                "-29",
+                "-5B",
+                "-5D",
+                "-7B",
+                "-7D",
+                "-5C",
+                "-24",
+                "-5E",
+                "-3A",
+                "-22",
+                "-23",
+                "-26",
+                "-27",
+                "-2B",
+                "-21",
+                #"-",
+                "-2D", # added
+            ],
+}
+encoding_dict = dict(
+zip(smw_encoding_lists["in"], smw_encoding_lists["out"])
+)
+
+def smw_encode(str):
+    """Encode a string according to SMW's encoding rules
+
+    Parameters
+    ----------
+    str
+        the string to encode
+
+    Returns
+    -------
+        the encoded string
+    """
+    for key, value in encoding_dict.items():
+        str = str.replace(key, value)
+    return str
+
+def smw_decode(str):
+    """Decode a string according to SMW's encoding rules
+
+    Parameters
+    ----------
+    str
+        the string to decode
+
+    Returns
+    -------
+        the decoded string
+    """
+    for key, value in encoding_dict.items():
+        str = str.replace(value, key)
+    return str
 
 def filter_internal_properties(jsonld_dict: Dict):
     """remove internal properties from the graph
@@ -65,6 +155,54 @@ def filter_internal_properties(jsonld_dict: Dict):
     else: apply(jsonld_dict)
     return jsonld_dict
 
+def order_dict(d: dict) -> dict:
+    """sorts dicts by keys and lists by value 
+    (if lists contains dicts, they are sorted by @id or the first key)
+    """
+    def key(x):
+        if isinstance(x, dict):
+            if "@id" in x: 
+                return x["@id"]
+            else:
+                first_key = next(iter(dict))
+                if first_key in x: return x[first_key]
+                else: return None
+        else: return x
+    def order_dict_recursiv(v):
+        if isinstance(v, dict):
+            for k in v:
+                v[k] = order_dict_recursiv(v[k])
+            v = dict(sorted(v.items()))
+        elif isinstance(v, list):
+            for i in v:
+                i = order_dict_recursiv(i)
+            v = sorted(v, key=key)
+        return v
+
+    return order_dict_recursiv(d)
+
+def replace_values(d: dict, target_key: str, callback: Callable) -> None:
+    """replace values in a dict recursivly
+    """
+    def replace_values_recursiv(v, parent_key):
+        if isinstance(v, dict):
+            for k in v:
+                k_param = k
+                if k_param == "@id": k_param = parent_key
+                v[k] = replace_values_recursiv(v[k], k_param)
+        elif isinstance(v, list):
+            _v = []
+            for i in v:
+                _v.append(replace_values_recursiv(i, parent_key))
+            v = _v
+        elif (parent_key == target_key):
+            _v = callback(v)
+            if (v != _v): print(f"Replace {v} with {_v}")
+            v = callback(v)
+        return v
+
+    return replace_values_recursiv(d, None)
+
 def dump(graph: rdflib.Graph, filepath: str):
     """Dump a rdflib graph to a jsonld file within the data directory
 
@@ -82,7 +220,10 @@ def dump(graph: rdflib.Graph, filepath: str):
             jsonld_dict["@context"][key] = value
         jsonld_dict = jsonld.compact(jsonld_dict, jsonld_dict["@context"])
         jsonld_dict = filter_internal_properties(jsonld_dict)
-        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4))
+        jsonld_dict["@context"]["File"] = {"@id": f"https://{domain}/wiki/Special:Redirect/file/", "@prefix": True}
+        replace_values(jsonld_dict, "Property:HasFile", lambda x: smw_decode(x))
+        jsonld_dict = order_dict(jsonld_dict)
+        f.write(json.dumps(jsonld_dict, ensure_ascii=False, indent=4, sort_keys=True))
 
 def cleanup():
     """purge the data directory"""

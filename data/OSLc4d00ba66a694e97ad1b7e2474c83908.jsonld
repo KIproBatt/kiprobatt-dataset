@@ -1,5 +1,6 @@
 {
     "@context": {
+        "@version": 1.1,
         "Category": {
             "@id": "https://kiprobatt.de/id/Category-3A",
             "@prefix": true
@@ -9,7 +10,7 @@
             "@prefix": true
         },
         "File": {
-            "@id": "https://kiprobatt.de/id/File-3A",
+            "@id": "https://kiprobatt.de/wiki/Special:Redirect/file/",
             "@prefix": true
         },
         "LabObject": {
@@ -72,28 +73,9 @@
         "vann": "http://purl.org/vocab/vann/",
         "void": "http://rdfs.org/ns/void#",
         "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@version": 1.1
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@graph": [
-        {
-            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0000",
-            "@type": [
-                "Category:LabProcessObject",
-                "swivt:Subject",
-                "Category:LabProcess-2FObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:ElectrodeStack@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            },
-            "Property:IsInstanceOf": {
-                "@id": "Material:OSL344e5c0f20e04894abe53678e2f68351"
-            }
-        },
         {
             "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908",
             "@type": [
@@ -101,16 +83,6 @@
                 "Category:Labprocess-2FInstance",
                 "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-04-06T12:27:09+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908"
-            },
             "Property:HasCreationDate": {
                 "@type": "xsd:dateTime",
                 "@value": "2023-04-06T12:26:51+00:00"
@@ -120,10 +92,10 @@
             "Property:HasName": "Stacking Protocol",
             "Property:HasObject": [
                 {
-                    "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0001"
+                    "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0000"
                 },
                 {
-                    "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0000"
+                    "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0001"
                 },
                 {
                     "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0002"
@@ -144,32 +116,49 @@
             "Property:IsInstanceOf": {
                 "@id": "LabProcess:OSLce4377780d0a40bb883c48d698f0b9de"
             },
-            "Property:Modification_date-23aux": 2460041.0188542
+            "Property:Modification_date-23aux": 2460041.0188542,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-04-06T12:27:09+00:00"
+            }
         },
         {
-            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908/S0000-23P0000",
+            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0000",
             "@type": [
-                "Category:LabProcess-2FParameter-2FInstance",
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
                 "swivt:Subject"
             ],
-            "Property:HasName": "ElectrodeCount",
-            "Property:HasNumberOfEntities": 11.0,
-            "Property:HasProperty": {
+            "Property:HasLabel": {
+                "@id": "kiprobatt:ElectrodeStack@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
                 "@id": "Property:HasNumberOfEntities"
             },
-            "Property:HasValue": {
-                "@id": "kiprobatt:11"
-            },
-            "Property:IsInstanceOf": [
-                {
-                    "@id": "Term:Parameter/Quantitative"
-                },
-                {
-                    "@id": "Term:Parameter/Actual"
-                }
+            "Property:IsInstanceOf": {
+                "@id": "Material:OSL344e5c0f20e04894abe53678e2f68351"
+            }
+        },
+        {
+            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0001",
+            "@type": [
+                "Category:LabProcess-2FObject",
+                "Category:LabProcessObject",
+                "swivt:Subject"
             ],
-            "Property:IsProcessParameterOf": {
-                "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
+            "Property:HasLabel": {
+                "@id": "kiprobatt:WeldedStack@en"
+            },
+            "Property:HasNumberOfEntities": 1.0,
+            "Property:HasQuantifyingQuantity": {
+                "@id": "Property:HasNumberOfEntities"
             }
         },
         {
@@ -177,9 +166,9 @@
             "@type": [
                 "Category:LabProcess-2FGlobalObject",
                 "Category:LabProcess-2FObject",
-                "swivt:Subject",
+                "Category:LabProcessObject",
                 "Category:LabProcessOutput",
-                "Category:LabProcessObject"
+                "swivt:Subject"
             ],
             "Property:HasLabel": {
                 "@id": "kiprobatt:DryCell@en"
@@ -196,36 +185,11 @@
             }
         },
         {
-            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908-23O0001",
-            "@type": [
-                "swivt:Subject",
-                "Category:LabProcess-2FObject",
-                "Category:LabProcessObject"
-            ],
-            "Property:HasLabel": {
-                "@id": "kiprobatt:WeldedStack@en"
-            },
-            "Property:HasNumberOfEntities": 1.0,
-            "Property:HasQuantifyingQuantity": {
-                "@id": "Property:HasNumberOfEntities"
-            }
-        },
-        {
             "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908/S0000",
             "@type": [
-                "swivt:Subject",
-                "Category:ProcessStepInstance"
+                "Category:ProcessStepInstance",
+                "swivt:Subject"
             ],
-            "swivt:page": {
-                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
-            },
-            "swivt:wikiPageModificationDate": {
-                "@type": "xsd:dateTime",
-                "@value": "2023-04-06T12:27:35+00:00"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
-            },
             "Property:HasEndDateAndTime": {
                 "@type": "xsd:dateTime",
                 "@value": "2023-04-06T12:27:23+00:00"
@@ -243,7 +207,43 @@
             "Property:IsSubprocessOf": {
                 "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908"
             },
-            "Property:Modification_date-23aux": 2460041.0191551
+            "Property:Modification_date-23aux": 2460041.0191551,
+            "rdfs:isDefinedBy": {
+                "@id": "https://kiprobatt.de/wiki/Special:ExportRDF/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
+            },
+            "swivt:page": {
+                "@id": "https://kiprobatt.de/wiki/LabObject-3AOSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
+            },
+            "swivt:wikiPageModificationDate": {
+                "@type": "xsd:dateTime",
+                "@value": "2023-04-06T12:27:35+00:00"
+            }
+        },
+        {
+            "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908/S0000-23P0000",
+            "@type": [
+                "Category:LabProcess-2FParameter-2FInstance",
+                "swivt:Subject"
+            ],
+            "Property:HasName": "ElectrodeCount",
+            "Property:HasNumberOfEntities": 11.0,
+            "Property:HasProperty": {
+                "@id": "Property:HasNumberOfEntities"
+            },
+            "Property:HasValue": {
+                "@id": "kiprobatt:11"
+            },
+            "Property:IsInstanceOf": [
+                {
+                    "@id": "Term:Parameter/Actual"
+                },
+                {
+                    "@id": "Term:Parameter/Quantitative"
+                }
+            ],
+            "Property:IsProcessParameterOf": {
+                "@id": "LabObject:OSLc4d00ba66a694e97ad1b7e2474c83908/S0000"
+            }
         }
     ]
 }

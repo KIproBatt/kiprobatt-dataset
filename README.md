@@ -118,6 +118,9 @@ classDiagram
 
 ```
 
+### EOL Testing Procedure
+![](/docs/KIproBatt_EOL_testing_scheme.png)
+
 ## Important Concepts
 
 ### Materials
